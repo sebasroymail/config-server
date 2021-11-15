@@ -3,6 +3,6 @@ eureka:
       register-with-eureka: true
       fetch_registry: true
       service-url:
-         defaultZone: http://localhost:8761/eureka/
+         defaultZone: http://registry-service.eastus.azurecontainer.io:8761/eureka/
    instance:
       hostname: localhost
