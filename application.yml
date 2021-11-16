@@ -4,5 +4,3 @@ eureka:
     fetch_registry: true
     service-url:
       defaultZone: http://registry-service.eastus.azurecontainer.io:8761/eureka/
-  instance:
-    hostname: localhost
